@@ -1,0 +1,9 @@
+
+LDA 0000H
+MOV B,A
+LDA 0001H
+ADD B
+STA 0002H
+
+
+hlt

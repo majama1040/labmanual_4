@@ -1,0 +1,13 @@
+
+MVI A,4H
+
+CALL NEXT
+
+
+
+hlt
+
+
+NEXT: RAL
+STA 000EH
+RET

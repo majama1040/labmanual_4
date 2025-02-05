@@ -1,0 +1,13 @@
+
+MVI A,3H
+MVI B,3H
+MVI C,3H
+NEXT: ADD B
+DCR C
+JNZ NEXT
+STA 0007H
+
+hlt
+
+
+hlt
