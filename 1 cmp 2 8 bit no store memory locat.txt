@@ -1,0 +1,4 @@
+1 cmp 2 8 bit no store memory location 2000h
+2 WRITE A PRO TO FING MINIMUM NUMBER from the given two 	numbers out of which one number is in memory and store 	the min number at the location 4000h
+3 wp to sum int from 0 to 9 and save the ans at the location 	4000h
+4 

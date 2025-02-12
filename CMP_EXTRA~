@@ -1,0 +1,10 @@
+MVI A,03H
+MVI B,02H
+CMP B
+jc  NEXT
+MVI A,02H
+
+NEXT: STA 0000H
+
+
+hlt
